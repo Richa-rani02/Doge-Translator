@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body {
+    font-family: "Courgette";
+}
+
+ :root {
+    --primary: #4B5563;
+    --black: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+}
+
+#heading {
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+    font-size: large;
+    padding: 0.5rem;
+    min-height: 22vh;
+}
+
+
+/**  #input-txt {
+            
+        }
+        
+        #output-txt {
+            min-height: 16vh;
+        }
+      **/
+
+#btn-translate {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 30%;
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-family: inherit;
+    height: 65px;
+    font-size: 1.7rem;
+}
+
+.output-heading {
+    font-size: 1.2rem;
+}
+
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    border: 1px solid var(--black);
+    padding: 1rem;
+    overflow: scroll;
+    font-size: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--primary);
+    text-align: center;
+    color: white;
+}
+
+footer div {
+    font-size: 2rem;
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
